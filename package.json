@@ -1,9 +1,12 @@
 {
   "name": "bezier-distance-playground",
   "version": "0.0.0",
-  "main": "index.js",
   "author": "Kaido Iwamoto <h6824.kaido@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build --no-source-maps src/index.html"
+  },
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
     "prettier": "^2.0.5",
